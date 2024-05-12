@@ -1,0 +1,66 @@
+{
+  "resources/assets/dashboard/app.js": {
+    "file": "assets/app-15048491.js",
+    "isEntry": true,
+    "src": "resources/assets/dashboard/app.js"
+  },
+  "resources/assets/dashboard/app.scss": {
+    "file": "assets/app-673626f0.css",
+    "isEntry": true,
+    "src": "resources/assets/dashboard/app.scss"
+  },
+  "resources/assets/dashboard/fonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-20c4a58b.ttf",
+    "src": "resources/assets/dashboard/fonts/fa-brands-400.ttf"
+  },
+  "resources/assets/dashboard/fonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-74833209.woff2",
+    "src": "resources/assets/dashboard/fonts/fa-brands-400.woff2"
+  },
+  "resources/assets/dashboard/fonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-528d022d.ttf",
+    "src": "resources/assets/dashboard/fonts/fa-regular-400.ttf"
+  },
+  "resources/assets/dashboard/fonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-8e7e5ea1.woff2",
+    "src": "resources/assets/dashboard/fonts/fa-regular-400.woff2"
+  },
+  "resources/assets/dashboard/fonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-67a65763.ttf",
+    "src": "resources/assets/dashboard/fonts/fa-solid-900.ttf"
+  },
+  "resources/assets/dashboard/fonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-7152a693.woff2",
+    "src": "resources/assets/dashboard/fonts/fa-solid-900.woff2"
+  },
+  "resources/assets/dashboard/fonts/ionicons.eot": {
+    "file": "assets/ionicons-8751f1f2.eot",
+    "src": "resources/assets/dashboard/fonts/ionicons.eot"
+  },
+  "resources/assets/dashboard/fonts/ionicons.svg": {
+    "file": "assets/ionicons-54e03743.svg",
+    "src": "resources/assets/dashboard/fonts/ionicons.svg"
+  },
+  "resources/assets/dashboard/fonts/ionicons.ttf": {
+    "file": "assets/ionicons-badc25db.ttf",
+    "src": "resources/assets/dashboard/fonts/ionicons.ttf"
+  },
+  "resources/assets/dashboard/fonts/ionicons.woff": {
+    "file": "assets/ionicons-00c2b506.woff",
+    "src": "resources/assets/dashboard/fonts/ionicons.woff"
+  },
+  "resources/assets/dashboard/fonts/ionicons.woff2": {
+    "file": "assets/ionicons-2d02d165.woff2",
+    "src": "resources/assets/dashboard/fonts/ionicons.woff2"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-c75e0372.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-0f4f8628.css",
+    "isEntry": true,
+    "src": "resources/sass/app.scss"
+  }
+}
