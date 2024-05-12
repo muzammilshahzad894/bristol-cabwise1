@@ -30,7 +30,8 @@
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Car<span>Book</span></a>
+
+        <img src="{{ asset('images/logo.png') }}" class="" alt="" style="max-height: 60px; width: 70px;">
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -59,7 +60,7 @@
                         @endguest
                     </div>
                 </li>
-                <li class="nav-item {{ request()->is('front/booking') ? 'active' : '' }}"><a href="{{ route('frontend.booking') }}" class="nav-link btn btn-warning text-white ">BOOK ONLINE</a></li>
+                <li class="nav-item {{ request()->is('front/booking') ? 'active' : '' }}"><a href="{{ route('frontend.booking') }}" class="nav-link btn btn-warning text-white my_booking_btn ">BOOK ONLINE</a></li>
             </ul>
 	      </div>
 	    </div>
@@ -88,7 +89,7 @@
         </div>
 				<div class="row">
 					<div class="col-md-3">
-						<div class="services services-2 w-100 text-center">
+						<div class="services my_box services-2 w-100 text-center">
             	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
             	<div class="text w-100">
                 <h3 class="heading mb-2">Wedding Ceremony</h3>
@@ -97,7 +98,7 @@
             </div>
 					</div>
 					<div class="col-md-3">
-						<div class="services services-2 w-100 text-center">
+						<div class="services my_box services-2 w-100 text-center">
             	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
             	<div class="text w-100">
                 <h3 class="heading mb-2">City Transfer</h3>
@@ -106,7 +107,7 @@
             </div>
 					</div>
 					<div class="col-md-3">
-						<div class="services services-2 w-100 text-center">
+						<div class="services my_box services-2 w-100 text-center">
             	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
             	<div class="text w-100">
                 <h3 class="heading mb-2">Airport Transfer</h3>
@@ -115,7 +116,7 @@
             </div>
 					</div>
 					<div class="col-md-3">
-						<div class="services services-2 w-100 text-center">
+						<div class="services my_box services-2 w-100 text-center">
             	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
             	<div class="text w-100">
                 <h3 class="heading mb-2">Whole City Tour</h3>
@@ -133,7 +134,7 @@
 				<div class="row justify-content-end">
 					<div class="col-md-6 heading-section heading-section-white ftco-animate">
             <h2 class="mb-3">Do You Want To Earn With Us? So Don't Be Late.</h2>
-            <a href="#" class="btn btn-primary btn-lg">Become A Driver</a>
+            <a href="#" class="btn btn-primary btn-lg my_booking_btn">Become A Driver</a>
           </div>
 				</div>
 			</div>
@@ -144,7 +145,7 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2"><a href="#" class="logo">Car<span>book</span></a></h2>
+              <h2 class="ftco-heading-2"><a href="#" class="logo">Bristol<span> Cabwise</span></a></h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
