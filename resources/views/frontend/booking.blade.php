@@ -42,7 +42,7 @@
 	    <div class="container">
 
         <img src="{{ asset('images/logo.png') }}" class="" alt="" style="max-height: 60px; width: 70px;">
-        
+
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -141,12 +141,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="" class="label">Number of Pessingers</label>
-                                       <select name="no_of_passengers" class="form-control">
-                                        <option value="1" class="bg-primary">1</option>
-                                        <option value="2" class="bg-primary">2</option>
-                                        <option value="2" class="bg-primary">3</option>
-                                        <option value="2" class="bg-primary">4</option>
-                                       </select>
+                                       <input type="number" class="form-control" name="no_of_passengers" >
                                     </div>
                                     <div class="form-group">
                                         <label for="" class="label">Child Seat</label>
@@ -157,17 +152,11 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="" class="label">Suitcases</label>
-                                       <select name="suitcases" class="form-control">
-                                        <option value="1" class="bg-primary">1</option>
-                                        <option value="2" class="bg-primary">2</option>
-                                       </select>
+                                       <input type="number" class="form-control" name="suitcases" >
                                     </div>
                                     <div class="form-group">
                                         <label for="" class="label">Hand Luggage</label>
-                                       <select name="hand_luggage" class="form-control">
-                                        <option value="1" class="bg-primary">1</option>
-                                        <option value="2" class="bg-primary">2</option>
-                                       </select>
+                                       <input type="number" class="form-control" name="hand_luggage" >
                                     </div>
                                     <div class="form-group">
                                         <label for="" class="label">Select Fleet</label>
@@ -192,7 +181,7 @@
                                     </div>
 
                                     <div class="form-group">
-                                    
+
                                         <input type="hidden" class="form-control" name="payment_amount" id="payment_amount" >
                                     </div>
                                     <div class="d-flex">
@@ -206,7 +195,7 @@
                         </div>
                     </div>
             </div>
-           
+
         </section>
 
 

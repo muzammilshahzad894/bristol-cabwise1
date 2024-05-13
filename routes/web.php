@@ -90,6 +90,11 @@ Route::group(
                 Route::get('img-delete/{id}', [FleetController::class, 'deleteImg'])->name('img-delete');
                 Route::get('img-edit/{id}', [FleetController::class, 'ImgEdit'])->name('img-edit');
                 Route::put('img-update/{id}', [FleetController::class, 'ImgUpdate'])->name('img-update');
+
+                Route::get('show/tax/{id}', [FleetController::class, 'showTaxes'])->name('show-taxes');
+                Route::get('delete/tax/{id}', [FleetController::class, 'deleteTaxes'])->name('delete-taxes');
+                Route::get('edit/tax/{id}', [FleetController::class, 'editTaxes'])->name('edit-taxes');
+                Route::put('update/tax/{id}', [FleetController::class, 'updateTaxes'])->name('update-taxes');
             }
         );
     }

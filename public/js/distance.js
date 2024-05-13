@@ -19,6 +19,7 @@ $(document).ready(function () {
 
     function calculateTaxes(distance) {
         var totalRate = null;
+        var totalTax = null;
         $('.selected').each(function () {
             var fleetId = $(this).find('input[name="fleet_id"]').val();
 
@@ -27,7 +28,10 @@ $(document).ready(function () {
                 method: 'GET',
                 success: function (response) {
                     totalRate = response.rate
-                    var totalAmount = totalRate * distance;
+                    totalTax = response.tax
+
+                    var Amount = totalRate * distance;
+                    var totalAmount = Amount + totalTax;
                     $('#payment_amount').val(totalAmount);
                     $('#fleetPayable' + fleetId).text(totalAmount);
 

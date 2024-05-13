@@ -7,6 +7,7 @@ use App\Http\Requests\FleetRequest;
 use Illuminate\Http\Request;
 use App\Models\Image;
 use App\Models\Fleet;
+use App\Models\Tax;
 class FleetController extends Controller
 {
     private $_service = null;
@@ -153,16 +154,47 @@ class FleetController extends Controller
     {
         $fleet = Fleet::findOrFail($id);
         $totalTaxAmount = 0;
-    
+
         foreach ($fleet->taxes as $tax) {
             $totalTaxAmount += $tax->tax_amount;
         }
-    
-        $rate = $fleet->rate + $totalTaxAmount;
-    
+
+        $rate = $fleet->rate;
+
         return response()->json([
             'rate' => $rate,
+            'tax'=>$totalTaxAmount,
         ]);
     }
-    
+
+    public function showTaxes($id)
+    {
+        $fleet=Fleet::findOrFail($id);
+        $data=$fleet->taxes;
+        return view($this->_directory . '.showTaxes', compact('data'));
+
+    }
+    public function editTaxes($id)
+    {
+        $data=Tax::findOrFail($id);
+        return view($this->_directory . '.editTaxes', compact('data'));
+    }
+    public function updateTaxes(Request $request,$id)
+    {
+
+        $data=Tax::findOrFail($id);
+
+        $data->update([
+            'tax_title'=>$request->tax_title ?? $data->tax_title,
+            'tax_amount'=>$request->tax_amount ?? $data->tax_amount,
+        ]);
+        return redirect()->back()->with('success','Updated Successfully');
+    }
+    public function deleteTaxes($id)
+    {
+        $data=Tax::findOrFail($id);
+        $data->delete();
+        return redirect()->back()->with('success','Deleted Successfully');
+    }
+
 }

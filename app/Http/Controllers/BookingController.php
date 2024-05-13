@@ -12,6 +12,7 @@ use Omnipay\Omnipay;
 use App\Mail\BookingConfirm;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Quote;
+use App\Models\Fleet;
 class BookingController extends Controller
 {
     private $_service = null;
@@ -57,6 +58,19 @@ class BookingController extends Controller
      */
     public function store(bookingRequest $request)
     {
+        $fleet=Fleet::findOrFail($request->fleet_id);
+        if($request->no_of_passengers>$fleet->max_passengers)
+        {
+            return redirect()->back()->with('error','Please input number of passengers according to selected fleet max passengers.');
+        }
+        if($request->suitcases>$fleet->max_suitcases)
+        {
+            return redirect()->back()->with('error','Please input number of suitcases according to selected fleet max suitcases.');
+        }
+        if($request->hand_luggage>$fleet->max_hand_luggage)
+        {
+            return redirect()->back()->with('error','Please input number of hand luggage according to selected fleet max hand luggage.');
+        }
 
         $requestType=$request->request_type;
         $paymentType=$request->payment_type;

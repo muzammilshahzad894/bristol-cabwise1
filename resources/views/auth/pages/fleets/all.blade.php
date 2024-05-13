@@ -22,6 +22,7 @@
                             <th>Banner Image</th>
                             <th>Rate</th>
                             <th>Gallery</th>
+                            <th>Taxes</th>
                             <th>Edit</th>
                             <th>Delete</th>
                         </tr>
@@ -54,6 +55,8 @@
                             <td>{{$fleet->rate}}</td>
                             <td><a href="{{route('fleets-gallery',$fleet->id)}}"><button
                                         class="btn btn-dark">Gallery</button></a></td>
+                            <td><a href="{{route('show-taxes',$fleet->id)}}"><button
+                                        class="btn btn-dark">Taxes</button></a></td>
                             <td><a href="{{route('fleets.edit',$fleet->id)}}"><button
                                         class="btn btn-primary">Edit</button></a></td>
                             <td><a href="{{route('fleets-destroy',$fleet->id)}}"><button
