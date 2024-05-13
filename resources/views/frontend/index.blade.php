@@ -76,14 +76,14 @@
         <div class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
           <div class="col-lg-8 ftco-animate">
           	<div class="text w-100 text-center mb-md-5 pb-md-5">
-	            <h1 class="mb-4">Fast &amp; Easy Way To Rent A Car</h1>
+	            <h1 class="mb-4">Fast &amp; Easy Way To Book  A Car</h1>
 	            <p style="font-size: 18px;">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts</p>
 	            <a href="https://vimeo.com/45830194" class="icon-wrap popup-vimeo d-flex align-items-center mt-4 justify-content-center">
 	            	<div class="icon d-flex align-items-center justify-content-center">
 	            		<span class="ion-ios-play"></span>
 	            	</div>
 	            	<div class="heading-title ml-5">
-		            	<span>Easy steps for renting a car</span>
+		            	<span>Easy steps for  booking a car</span>
 	            	</div>
 	            </a>
             </div>
@@ -255,15 +255,15 @@
 			<div class="overlay"></div>
     	<div class="container">
     		<div class="row">
-          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate custom_total_val">
             <div class="block-18">
-              <div class="text text-border d-flex align-items-center">
+              <div class="text text-border d-flex align-items-center ">
                 <strong class="number" data-number="60">0</strong>
                 <span>Year <br>Experienced</span>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate custom_year_val">
             <div class="block-18">
               <div class="text text-border d-flex align-items-center">
                 <strong class="number" data-number="1090">0</strong>
@@ -271,7 +271,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate custom_year_val">
             <div class="block-18">
               <div class="text text-border d-flex align-items-center">
                 <strong class="number" data-number="2590">0</strong>
@@ -279,7 +279,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate custom_year_val">
             <div class="block-18">
               <div class="text d-flex align-items-center">
                 <strong class="number" data-number="67">0</strong>
@@ -334,8 +334,11 @@
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Address :
+                    81 Blackberry Hill 
+                    Bristol 
+                    Bs161df</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2  07533225970</span></a></li>
 	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
 	              </ul>
 	            </div>

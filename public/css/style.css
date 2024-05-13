@@ -77,6 +77,15 @@
   right: 0; /* Move the pseudo-element to the left */
 }
 
+h3.heading.mb-2 {
+  color: white;
+}
+.services.my_box.services-2.w-100.text-center {
+  background: black;
+  padding: 10px 4px;
+  margin-top: 10px;
+  border-top-right-radius: 27px;
+}
 /* Optional: Define the transition for when the mouse leaves */
 .my_booking_btn:not(:hover)::before {
   right: 100%; /* Move the pseudo-element back to the initial position */
@@ -8239,11 +8248,11 @@ h1, h2, h3, h4, h5,
     padding-bottom: .9rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #fff !important;
+    color: #fff ;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #ee8914 !important; }
+      color: #ee8914 ; }
       
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -8367,7 +8376,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       padding-top: 0.9rem !important;
       padding-bottom: 0.9rem !important;
-      color: #000000 !important; }
+       }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #1089ff !important; }
     .ftco-navbar-light.scrolled.awake {
@@ -9454,12 +9463,23 @@ textarea.form-control {
     color: #000000; }
   .testimony-wrap .position {
     font-size: 16px;
-    color: #1089ff; }
+    color: #ee8914; }
 
 @media (max-width: 767.98px) {
   .about-image {
     height: 400px;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; } 
+    .ftco-counter .overlay{
+      background: transparent !important;
+    }
+    .custom_total_val {
+      background: #ed8d1c;
+      border-top-right-radius: 60px;
+  }
+  .custom_year_val{
+    background:rgba(0, 0, 0, 0.25);
+  }
+  }
 
 .image-popup {
   cursor: -webkit-zoom-in;
